@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Preza Pro, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Pareza Pro, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -19,9 +19,9 @@ const TeamEdition: React.FC<TeamEditionProps> = ({openEELicenseModal, currentPla
             </div>
             <hr/>
             <div>
-                <p>{'When using Preza Pro Team Edition, the software is offered under a Preza Pro MIT Compiled License. See MIT-COMPILED-LICENSE.md in your root install directory for details.'}</p>
+                <p>{'When using Pareza Pro Team Edition, the software is offered under a Pareza Pro MIT Compiled License. See MIT-COMPILED-LICENSE.md in your root install directory for details.'}</p>
                 <p>
-                    {'When using Preza Pro Enterprise Edition, the software is offered under a commercial license. See '}
+                    {'When using Pareza Pro Enterprise Edition, the software is offered under a commercial license. See '}
                     <a
                         role='button'
                         onClick={openEELicenseModal}
