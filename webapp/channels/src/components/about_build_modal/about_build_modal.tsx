@@ -110,7 +110,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
             <div>
                 <FormattedMessage
                     id='about.teamEditionLearn'
-                    defaultMessage='Join the Preza Pro community at '
+                    defaultMessage='Join the Pareza Pro community at '
                 />
                 <ExternalLink
                     location='about_build_modal'
@@ -297,7 +297,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <div>
                             <h3 className='about-modal__title'>
                                 <strong>
-                                    {'Preza Pro'} {title}
+                                    {'Pareza Pro'} {title}
                                 </strong>
                             </h3>
                             <p className='about-modal__subtitle pb-2'>
