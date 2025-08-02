@@ -50,9 +50,9 @@ const MenuStartTrial = (props: Props): JSX.Element | null => {
             role='menuitem'
             id={props.id}
         >
-            <FreeVersionBadge>{'FREE EDITION'}</FreeVersionBadge>
+            {/* <FreeVersionBadge>{'FREE EDITION'}</FreeVersionBadge> */}
             <div className='editionText'>
-                {formatMessage(
+                {/* {formatMessage(
                     {
                         id: 'navbar_dropdown.versionText',
                         defaultMessage: 'This is the free <link>unsupported</link> edition of Mattermost.',
@@ -67,7 +67,7 @@ const MenuStartTrial = (props: Props): JSX.Element | null => {
                             </ExternalLink>
                         ),
                     },
-                )}
+                )} */}
             </div>
         </li>
     );

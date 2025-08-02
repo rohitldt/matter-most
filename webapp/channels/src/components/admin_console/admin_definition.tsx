@@ -244,17 +244,17 @@ const AdminDefinition: AdminDefinitionType = {
             it.not(it.userHasReadPermissionOnSomeResources(RESOURCE_KEYS.ABOUT)),
         ),
         subsections: {
-            license: {
-                url: 'about/license',
-                title: defineMessage({id: 'admin.sidebar.license', defaultMessage: 'Edition and License'}),
-                searchableStrings: licenseSettingsSearchableStrings,
-                isHidden: it.not(it.userHasReadPermissionOnResource(RESOURCE_KEYS.ABOUT.EDITION_AND_LICENSE)),
-                isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.ABOUT.EDITION_AND_LICENSE)),
-                schema: {
-                    id: 'LicenseSettings',
-                    component: LicenseSettings,
-                },
-            },
+            // license: {
+            //     url: 'about/license',
+            //     title: defineMessage({id: 'admin.sidebar.license', defaultMessage: 'Edition and License'}),
+            //     searchableStrings: licenseSettingsSearchableStrings,
+            //     isHidden: it.not(it.userHasReadPermissionOnResource(RESOURCE_KEYS.ABOUT.EDITION_AND_LICENSE)),
+            //     isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.ABOUT.EDITION_AND_LICENSE)),
+            //     schema: {
+            //         id: 'LicenseSettings',
+            //         component: LicenseSettings,
+            //     },
+            // },
         },
     },
     billing: {

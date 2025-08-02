@@ -125,7 +125,7 @@ const MenuCloudTrial = ({id}: Props): JSX.Element | null => {
             role='menuitem'
             id={id}
         >
-            {isFreeTrial ? freeTrialContent : noFreeTrialContent}
+            {/* {isFreeTrial ? freeTrialContent : noFreeTrialContent} */}
         </li>
     );
 };
