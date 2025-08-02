@@ -210,7 +210,8 @@ button {
     &.btn-primary {
         position: relative;
         border-color: transparent;
-        background-color: rgb(var(--button-bg-rgb));
+        //background-color: rgb(var(--button-bg-rgb));
+        background-color: blue;
         color: rgb(var(--button-color-rgb)) !important;
 
         // These hover and active values are for things outside the app__body, the correct theme styles for the primary button are applied in utils.jsx

@@ -28,10 +28,10 @@ body {
 }
 
 .LoadingScreen--darkMode {
-    --background-color-highlight: #ffffff;
-    --background-color: #f0f4ff;
-    --stipple-color: #003EBF;
-    --stipple-opacity: 0.03;
+    --background-color-highlight: #28427b;
+    --background-color: #1e325c;
+    --stipple-color: #14213e;
+    --stipple-opacity: 0.8;
 }
 
 .LoadingScreen__background,
@@ -43,12 +43,7 @@ body {
     height: 100%;
 }
 .LoadingScreen__background {
-    background: linear-gradient(120deg, 
-        #ffffff 0%,
-        rgba(0, 62, 191, 0.05) 30%,
-        rgba(0, 62, 191, 0.1) 60%,
-        rgba(0, 62, 191, 0.15) 100%
-    );
+    background: var(--background-color);
 }
 
 .LoadingScreen .Pill__stipple {

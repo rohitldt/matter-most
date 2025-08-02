@@ -19,7 +19,7 @@
 
     &.active,
     &:active {
-        background-color: rgba(var(--button-bg-rgb), 0.04);
+        background-color: rgba(var(--button-bg), 0.04);
         color: var(--button-bg);
 
         &:hover {
